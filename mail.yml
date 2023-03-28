@@ -2,10 +2,10 @@
 - name: Sample Email Playbook  
   hosts: "all
   tasks:
-    mail:
+    - mail:
     #host: app-smtp-exchange.uk.hsbc
-    subject: Test Email playbook
-    body: Hi from sayali
-    from: sayalijoshi678@gmail.com
-    to: sayjoshi@redhat.com
-      
+        subject: Test Email playbook
+        body: Hi from sayali
+        from: sayalijoshi678@gmail.com
+        to: sayjoshi@redhat.com
+   
