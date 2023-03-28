@@ -10,6 +10,6 @@
         subject: Test Email playbook
         body: Hi from sayali 
         username: sayjoshi@redhat.com 
-        password: {{password}}
+        password: "{{password}}"
         to: ahuchcha@redhat.com  
       #delegate_to: localhost
