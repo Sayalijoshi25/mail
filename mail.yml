@@ -8,5 +8,4 @@
         body: Hi from sayali
         from: sayjoshi@redhat.com 
         to: ahuchcha@redhat.com  
-   
-      delegate_to: localhost
+      #delegate_to: localhost
