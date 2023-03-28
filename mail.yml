@@ -1,6 +1,6 @@
 ---
 - name: Sample Email Playbook  
-  hosts: "all
+  hosts: all
   tasks:
     - mail:
     #host: app-smtp-exchange.uk.hsbc
