@@ -2,13 +2,10 @@
 - name: Sample Email Playbook  
   hosts: "all
   tasks:
-    - debug: 
-       msg: " Ansible Host is  {{ansible_hostname }}"  # {{ inventory_hostname }} "
-    - name: Send email FROM  Tower 
-      mail:
-       host: app-smtp-exchange.uk.hsbc
-       subject: Test Email playbook
-       body: "hi from sayali"
-       from: "sayalijoshi678@gmail.com"  
-       to: "ahuchcha@redhat.com" 
+    mail:
+    #host: app-smtp-exchange.uk.hsbc
+    subject: Test Email playbook
+    body: "hi from sayali"
+    from: "sayalijoshi678@gmail.com"  
+    to: "ahuchcha@redhat.com" 
       
