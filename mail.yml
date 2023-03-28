@@ -3,9 +3,10 @@
   hosts: all
   tasks:
     - mail:
-    #host: app-smtp-exchange.uk.hsbc
+        host: 192.168.122.214
         subject: Test Email playbook
         body: Hi from sayali
         from: sayjoshi@redhat.com 
         to: ahuchcha@redhat.com  
    
+      delegate_to: localhost
