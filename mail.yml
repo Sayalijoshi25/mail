@@ -5,7 +5,7 @@
     mail:
     #host: app-smtp-exchange.uk.hsbc
     subject: Test Email playbook
-    body: "hi from sayali"
-    from: "sayalijoshi678@gmail.com"  
-    to: "ahuchcha@redhat.com" 
+    body: Hi from sayali
+    from: sayalijoshi678@gmail.com
+    to: sayjoshi@redhat.com
       
